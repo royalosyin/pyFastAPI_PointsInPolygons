@@ -28,3 +28,7 @@ https://www.linkedin.com/pulse/build-simple-reverse-geocoding-api-using-fastapi-
 The service could be started as
 
 python main.py
+
+## Note
+The test is too big to upload. You can download it and preprocess following the steps in the PDF file.
+

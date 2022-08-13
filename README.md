@@ -3,7 +3,7 @@ A Tutorial to show how to build simple Point-In-Polygon Web API using FastAPI an
 
 ## Background
 
-On year ago, I built an early warning service where the core algorithm is to use point data to find the area it belongs to.  It is a typical application of point in polygon. In essence, it is also a reverse geocoding process, which converts the latitude and longitude coordinates to a readable address. In our service, we only care about national and provincial administrative boundaries just as the image shows. It is a simplified reverse geocoding process. 
+On year ago, I built an early warning service where the core algorithm is to use point data to find the area it belongs to.  It is a typical application of point in polygon. In essence, it is also a reverse geocoding process, which converts the latitude and longitude coordinates to a readable address. In our service, we only care about national and provincial administrative boundaries. It is a simplified reverse geocoding process. 
 
 ## FastAPI
 

@@ -1,0 +1,13 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/pips/' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "latitude": [21.777515, 19.619468, -32.321729, 23.460114],
+  "longitude": [-149.955038, -155.623983, 28.174123, 120.642832]
+}'
+
+
+curl -X 'GET' \
+  'http://127.0.0.1:8000/pip/?latlng=23.447633%2C%20120.625991' \
+  -H 'accept: application/json'
